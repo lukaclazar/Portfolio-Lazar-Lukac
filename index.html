@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Lazar Lukac</title>
+
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <nav>
+
 <div class="logo">LAZAR</div>
 
 <div class="nav-links">
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
+<a href="#experience">Experience</a>
+<a href="#volunteering">Volunteering</a>
 <a href="#contact">Contact</a>
+
+<button id="theme-toggle">Light Mode</button>
 </div>
+
 </nav>
+
+
 
 
 
@@ -24,16 +36,16 @@
 
 <div class="left">
 
-<p class="small">ECONOMICS • COMPUTER SCIENCE</p>
+<p class="small">
+ECONOMICS • COMPUTER SCIENCE
+</p>
 
 <h1>
-Building models at the intersection
-of finance, data and math.
+Economics major with computer science minor, interested in financial systems, risk modeling, and revenue optimization.
 </h1>
 
 <p class="intro">
-Student researcher interested in quantitative finance,
-economic systems and revenue management optimization.
+I enjoy using data, finance, and programming to better understand real-world systems and create strategic decisions.
 </p>
 
 <div class="buttons">
@@ -44,11 +56,16 @@ economic systems and revenue management optimization.
 </div>
 
 
+
 <div class="right">
-<img src="images/profile.jpeg">
+<img src="./images/profile.jpeg" alt="Profile Image">
 </div>
 
 </section>
+
+
+
+
 
 
 
@@ -56,46 +73,61 @@ economic systems and revenue management optimization.
 <section id="about">
 
 <div class="section-label">
-ABOUT
+ABOUT ME
 </div>
 
 <h2>
-Economics + Computer Science student exploring
-risk, systems through computation.
+International student exploring economics, computation, and quantitative analysis.
 </h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Research interests</h3>
+
+<h3>Relevant coursework</h3>
+
 <p>
-Game theory, econometrics,
-aviation economics.
+Intermediate Microeconomics, Game Theory, Economics of Globalization, Cybersecurity, Calculus I & II, Computer Science I & II, Econometrics (in progress), Databases (in progress)
 </p>
+
 </div>
 
 
-<div class="card">
-<h3>Technical Skills</h3>
-<p>
-Python, SQL, STATA,
-data analysis.
-</p>
-</div> 
+
 
 
 <div class="card">
-<h3>Finance experience/h3>
+
+<h3>Research</h3>
+
 <p>
-Credit risk,
-banking,
-quantitative modeling.
+Aviation economics welfare analysis, revenue management modeling, and optimization of Credit Value at Risk calculations.
 </p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>Technical skills</h3>
+
+<p>
+Python, SQL, Stata, C++, HTML/CSS.
+</p>
+
 </div>
 
 </div>
 
 </section>
+
+
+
+
+
 
 
 
@@ -106,58 +138,107 @@ quantitative modeling.
 SELECTED WORK
 </div>
 
+<div id="projects-container"></div>
+
 <div class="project">
 <span>01</span>
+
 <div>
-<h3>Aviation Economics Research, sponosered by Dinah Dodds Endowment </h3>
+<h3>
+Aviation Economics Research, sponsored by Dinah Dodds Endowment
+</h3>
+
 <p>
-<i> Clearing the Skies: Exploring Deadweight Loss and Payment Inefficiencies in Global Aviation </i>
+<i>
+Clearing the Skies: Exploring Deadweight Loss and Payment Inefficiencies in Global Aviation
+</i>
 </p>
 </div>
+
 </div>
+
+
+
+
 
 <div class="project">
 <span>02</span>
+
 <div>
-<h3>Credit Risk Modeling</h3>
+<h3>
+Certificate in International Economics and Finance — Czech Academy of Sciences
+</h3>
+
 <p>
-    Project improving credit risk calculations through optimized credit rating transtition predicting. 
+Completed seminars led by leading economists, including Nobel Laureates, and completed a research project related to interchange fee regulation in Europe.
 </p>
 </div>
+
 </div>
 
-<div class="project">
-<span>03</span>
-<div>
-<h3>Certificate in Internnational Economics and Finance by Czech Academy of Sciences</h3>
-<p>
-Recived through completeing several seminars by leading economists, inluding Nobel Laueretes and completeing a research project related to Interchange Fee regulation in Europe</p>
-</div>
 </div>
 
 </section>
+
+
+
+
+
+
+
 
 
 
 
 <section id="contact">
 
-<h2>Let's Connect!</h2>
+<div class="section-label">
+CONTACT
+</div>
 
-<p>
-lazarl@lclark.edu
-</p>
+<h2>
+Let's Connect
+</h2>
 
-<p>
-linkedin.com/in/lukaclazar
-</p>
+<form id="contact-form">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Your Email">
+
+<textarea id="message" placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+<p id="form-message"></p>
+
+</form>
+
+
+
+<div class="contact-links">
+
+
+<a href="https://linkedin.com/in/lukaclazar" target="_blank">
+LinkedIn
+</a>
+
+</div>
 
 </section>
 
 
+
+
+
+
+
+
 <footer>
-2026 • Lazar Lukac
+2026 Lazar Lukac
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
